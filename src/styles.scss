@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+:root {
+    --principal: #65C2FD;
+    --secondary: #b9b9b9;
+    --third: #d49250;
+  }
+
+body{
+    background-color: rgb(48, 48, 48);
+    color: rgb(207, 207, 207);
+
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1{
+    color: var(--principal);
+    height: 72px;
+}
+
+h2{
+    height: 48px;
+}
+
+h3{
+    height: 32px;
+}
+
+h4{
+    height: 28px;
+}
+
+p{
+    height: 20px;
+}
+
+.p-button .p-button-label{
+    color: var(--secondary) !important;
+}
+
+.p-button{
+    border-width: 3px;
+    border-radius: 0px;
+}
+.p-inputtext{
+    background-color: var(--secondary) !important;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+}
+
+.p-inputtext:enabled:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem #143d74;
+    border-color: #1f4252;
+}
